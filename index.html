@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Trilha de CSS - DIO</title>
   </head>
   <body>
     <header class="banner">
-      <section class="banner-content">
-        <section class="logo">
+      <div class="banner-content">
+        <div class="logo">
           <img
             src="assets/images/logo.png"
             title="Logotipo Trilha de CSS DIO"
             alt="Logotipo Trilha de CSS DIO"
           />
-        </section>
+        </div>
 
         <h1>Trilha de CSS da DIO</h1>
 
@@ -24,8 +25,14 @@
           zero como desenvolver sites profissionais.
         </p>
 
-        <button>Quero me inscrever</button>
-      </section>
+        <a
+          href="https://dio.me/curso-css/AF7GSCCVS63N"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button>Quero me inscrever</button>
+        </a>
+      </div>
     </header>
 
     <main>
@@ -38,19 +45,19 @@
           e CSS: sem nenhuma biblioteca ou framework a mais.
         </p>
 
-        <section class="modules-list">
-          <section class="module">
+        <div class="modules-list">
+          <div class="module">
             <span>Módulo 01:</span> primeiros passos com CSS
-          </section>
+          </div>
 
-          <section class="module">
+          <div class="module">
             <span>Módulo 02:</span> trabalhando com layouts no CSS
-          </section>
+          </div>
 
-          <section class="module">
+          <div class="module">
             <span>Módulo 03:</span> refinando os estilos CSS das nossas páginas
-          </section>
-        </section>
+          </div>
+        </div>
       </section>
 
       <section id="transform-world">
@@ -78,13 +85,19 @@
 
     <footer>
       <img
-        class="dio-logo"
+        id="dio-logo"
         src="assets/images/dio-logo.png"
         title="Logotipo DIO com o texto make the change"
         alt="Logotipo DIO com o texto make the change"
       />
 
-      <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p>
+      <p>
+        Acesse
+        <a href="https://dio.me" target="_blank" rel="noopener noreferrer">
+          dio.me
+        </a>
+        e se cadastre agora
+      </p>
     </footer>
   </body>
 </html>
